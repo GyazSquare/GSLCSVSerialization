@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D77E1BE11B0DD5AB00EA2EAA /* KEN_ALL.CSV in Resources */ = {isa = PBXBuildFile; fileRef = D77E1BE01B0DD5AB00EA2EAA /* KEN_ALL.CSV */; };
+		D790164E1B08CF2F009433C5 /* GSLCSVSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D790164D1B08CF2F009433C5 /* GSLCSVSerializationTests.m */; };
+		D7B2F4A11B0442F000C877F6 /* GSLCSVSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7B2F4A01B0442F000C877F6 /* GSLCSVSerialization.h */; };
+		D7B2F4A31B0442F000C877F6 /* GSLCSVSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2F4A21B0442F000C877F6 /* GSLCSVSerialization.m */; };
+		D7B2F4A91B0442F000C877F6 /* libGSLCSVSerialization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B2F49D1B0442F000C877F6 /* libGSLCSVSerialization.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7B2F4AA1B0442F000C877F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7B2F4951B0442F000C877F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7B2F49C1B0442F000C877F6;
+			remoteInfo = GSLCSVSerialization;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D7B2F49B1B0442F000C877F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D7B2F4A11B0442F000C877F6 /* GSLCSVSerialization.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D77E1BE01B0DD5AB00EA2EAA /* KEN_ALL.CSV */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = text; path = KEN_ALL.CSV; sourceTree = "<group>"; };
+		D790164D1B08CF2F009433C5 /* GSLCSVSerializationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLCSVSerializationTests.m; sourceTree = "<group>"; };
+		D7B2F49D1B0442F000C877F6 /* libGSLCSVSerialization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGSLCSVSerialization.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B2F4A01B0442F000C877F6 /* GSLCSVSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSLCSVSerialization.h; sourceTree = "<group>"; };
+		D7B2F4A21B0442F000C877F6 /* GSLCSVSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSLCSVSerialization.m; sourceTree = "<group>"; };
+		D7B2F4A81B0442F000C877F6 /* GSLCSVSerializationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSLCSVSerializationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B2F4AE1B0442F000C877F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7B2F49A1B0442F000C877F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B2F4A51B0442F000C877F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B2F4A91B0442F000C877F6 /* libGSLCSVSerialization.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7B2F4941B0442F000C877F6 = {
+			isa = PBXGroup;
+			children = (
+				D7B2F49F1B0442F000C877F6 /* GSLCSVSerialization */,
+				D7B2F4AC1B0442F000C877F6 /* GSLCSVSerializationTests */,
+				D7B2F49E1B0442F000C877F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7B2F49E1B0442F000C877F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7B2F49D1B0442F000C877F6 /* libGSLCSVSerialization.a */,
+				D7B2F4A81B0442F000C877F6 /* GSLCSVSerializationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7B2F49F1B0442F000C877F6 /* GSLCSVSerialization */ = {
+			isa = PBXGroup;
+			children = (
+				D7B2F4A01B0442F000C877F6 /* GSLCSVSerialization.h */,
+				D7B2F4A21B0442F000C877F6 /* GSLCSVSerialization.m */,
+			);
+			path = GSLCSVSerialization;
+			sourceTree = "<group>";
+		};
+		D7B2F4AC1B0442F000C877F6 /* GSLCSVSerializationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D790164D1B08CF2F009433C5 /* GSLCSVSerializationTests.m */,
+				D7B2F4AD1B0442F000C877F6 /* Supporting Files */,
+			);
+			path = GSLCSVSerializationTests;
+			sourceTree = "<group>";
+		};
+		D7B2F4AD1B0442F000C877F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7B2F4AE1B0442F000C877F6 /* Info.plist */,
+				D77E1BE01B0DD5AB00EA2EAA /* KEN_ALL.CSV */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7B2F49C1B0442F000C877F6 /* GSLCSVSerialization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B2F4B11B0442F000C877F6 /* Build configuration list for PBXNativeTarget "GSLCSVSerialization" */;
+			buildPhases = (
+				D7B2F4991B0442F000C877F6 /* Sources */,
+				D7B2F49A1B0442F000C877F6 /* Frameworks */,
+				D7B2F49B1B0442F000C877F6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSLCSVSerialization;
+			productName = GSLCSVSerialization;
+			productReference = D7B2F49D1B0442F000C877F6 /* libGSLCSVSerialization.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D7B2F4A71B0442F000C877F6 /* GSLCSVSerializationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B2F4B41B0442F000C877F6 /* Build configuration list for PBXNativeTarget "GSLCSVSerializationTests" */;
+			buildPhases = (
+				D7B2F4A41B0442F000C877F6 /* Sources */,
+				D7B2F4A51B0442F000C877F6 /* Frameworks */,
+				D7B2F4A61B0442F000C877F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7B2F4AB1B0442F000C877F6 /* PBXTargetDependency */,
+			);
+			name = GSLCSVSerializationTests;
+			productName = GSLCSVSerializationTests;
+			productReference = D7B2F4A81B0442F000C877F6 /* GSLCSVSerializationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7B2F4951B0442F000C877F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				TargetAttributes = {
+					D7B2F49C1B0442F000C877F6 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					D7B2F4A71B0442F000C877F6 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = D7B2F4981B0442F000C877F6 /* Build configuration list for PBXProject "GSLCSVSerialization" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D7B2F4941B0442F000C877F6;
+			productRefGroup = D7B2F49E1B0442F000C877F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7B2F49C1B0442F000C877F6 /* GSLCSVSerialization */,
+				D7B2F4A71B0442F000C877F6 /* GSLCSVSerializationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7B2F4A61B0442F000C877F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77E1BE11B0DD5AB00EA2EAA /* KEN_ALL.CSV in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7B2F4991B0442F000C877F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B2F4A31B0442F000C877F6 /* GSLCSVSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B2F4A41B0442F000C877F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D790164E1B08CF2F009433C5 /* GSLCSVSerializationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7B2F4AB1B0442F000C877F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7B2F49C1B0442F000C877F6 /* GSLCSVSerialization */;
+			targetProxy = D7B2F4AA1B0442F000C877F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D7B2F4AF1B0442F000C877F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7B2F4B01B0442F000C877F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7B2F4B21B0442F000C877F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D7B2F4B31B0442F000C877F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D7B2F4B51B0442F000C877F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GSLCSVSerializationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7B2F4B61B0442F000C877F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GSLCSVSerializationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7B2F4981B0442F000C877F6 /* Build configuration list for PBXProject "GSLCSVSerialization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B2F4AF1B0442F000C877F6 /* Debug */,
+				D7B2F4B01B0442F000C877F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7B2F4B11B0442F000C877F6 /* Build configuration list for PBXNativeTarget "GSLCSVSerialization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B2F4B21B0442F000C877F6 /* Debug */,
+				D7B2F4B31B0442F000C877F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7B2F4B41B0442F000C877F6 /* Build configuration list for PBXNativeTarget "GSLCSVSerializationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B2F4B51B0442F000C877F6 /* Debug */,
+				D7B2F4B61B0442F000C877F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7B2F4951B0442F000C877F6 /* Project object */;
+}
