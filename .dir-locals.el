@@ -13,7 +13,7 @@
      (eval . (set (make-local-variable 'srcroot)
                   (expand-file-name "GSLCSVSerialization" project-dir)))))
  (objc-mode
-  . ((flycheck-objc-clang-xcrun-sdk . "iphoneos11.0")
+  . ((flycheck-objc-clang-xcrun-sdk . "iphoneos11.1")
      (flycheck-objc-clang-arc . t)
      (flycheck-objc-clang-modules . t)
      (flycheck-objc-clang-archs . ("arm64" "armv7"))
