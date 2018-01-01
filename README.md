@@ -6,8 +6,8 @@ GSLCSVSerialization is an Objective-C CSV parser for iOS, OS X, watchOS and tvOS
 
 ## Requirements
 
-* Xcode 9.1 or later
-* Base SDK: iOS 11.1 / OS X 10.13.1 / watchOS 4.1 / tvOS 11.1 or later
+* Xcode 9.2 or later
+* Base SDK: iOS 11.2 / OS X 10.13.2 / watchOS 4.2 / tvOS 11.2 or later
 * Deployment Target: iOS 8.0 / OS X 10.6 / watchOS 2.0 / tvOS 9.0  or later
 
 ## Installation
