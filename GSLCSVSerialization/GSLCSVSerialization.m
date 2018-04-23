@@ -113,7 +113,15 @@ static NSInteger __GSLCSVWriteRecord(NSOutputStream *stream, NSArray<NSString *>
                 result += bytesWritten;
             }
         }
-        NSString *field = fields[i];
+        NSString *field = ^{
+            if (@available(macOS 10.8, *)) {
+                // macOS 10.8+
+                return fields[i];
+            } else {
+                // macOS 10.6-10.8
+                return [fields objectAtIndex:i];
+            }
+        }();
         if (field.length == 0) {
             continue;
         }
@@ -384,7 +392,15 @@ NSString * const GSLCSVErrorDomain = @"GSLCSVErrorDomain";
                 result += bytesWritten;
             }
         }
-        NSArray<NSString *> *fields = records[i];
+        NSArray<NSString *> *fields = ^{
+            if (@available(macOS 10.8, *)) {
+                // macOS 10.8+
+                return records[i];
+            } else {
+                // macOS 10.6-10.8
+                return [records objectAtIndex:i];
+            }
+        }();
         NSError *error = nil;
         NSInteger bytesWritten = __GSLCSVWriteRecord(stream, fields, encoding, opt, &error);
         if (bytesWritten < 0) {
