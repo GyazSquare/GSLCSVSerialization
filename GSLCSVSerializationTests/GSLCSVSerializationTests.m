@@ -26,7 +26,7 @@
     // nil records
     {
         NSArray *records = nil;
-        XCTAssertFalse([GSLCSVSerialization isValidCSVRecords:records]);
+        XCTAssertThrowsSpecificNamed([GSLCSVSerialization isValidCSVRecords:records], NSException, NSInvalidArgumentException);
     }
     // empty records
     {
