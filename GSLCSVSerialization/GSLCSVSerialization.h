@@ -32,7 +32,7 @@ typedef NS_OPTIONS(NSUInteger, GSLCSVWritingOptions) {
 
 @interface GSLCSVSerialization : NSObject
 
-+ (BOOL)isValidCSVRecords:(nullable NSArray<NSArray<NSString *> *> *)records;
++ (BOOL)isValidCSVRecords:(NSArray<NSArray<NSString *> *> *)records;
 
 + (nullable NSData *)dataWithCSVRecords:(NSArray<NSArray<NSString *> *> *)records encoding:(NSStringEncoding)encoding options:(GSLCSVWritingOptions)opt error:(NSError **)error;
 + (NSInteger)writeCSVRecords:(NSArray<NSArray<NSString *> *> *)records toStream:(NSOutputStream *)stream encoding:(NSStringEncoding)encoding options:(GSLCSVWritingOptions)opt error:(NSError **)error;
