@@ -339,7 +339,10 @@ NSString * const GSLCSVErrorDomain = @"GSLCSVErrorDomain";
 
 @implementation GSLCSVSerialization
 
-+ (BOOL)isValidCSVRecords:(nullable NSArray<NSArray<NSString *> *> *)records {
++ (BOOL)isValidCSVRecords:(NSArray<NSArray<NSString *> *> *)records {
+    if (!records) {
+        [NSException raise:NSInvalidArgumentException format:@"*** %s: records parameter is nil", __PRETTY_FUNCTION__];
+    }
     return __GSLCSVIsValidCSVRecords(records, NULL);
 }
 
