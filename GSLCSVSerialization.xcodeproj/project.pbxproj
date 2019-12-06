@@ -155,7 +155,7 @@
 		D7B2F4951B0442F000C877F6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1120;
 				TargetAttributes = {
 					D7B2F49C1B0442F000C877F6 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -167,7 +167,7 @@
 			};
 			buildConfigurationList = D7B2F4981B0442F000C877F6 /* Build configuration list for PBXProject "GSLCSVSerialization" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
