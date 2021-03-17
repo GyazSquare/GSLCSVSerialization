@@ -13,7 +13,7 @@
      (flycheck-objc-clang-arc . t)
      (flycheck-objc-clang-modules . t)
      (flycheck-objc-clang-archs . ("arm64" "armv7"))
-     (flycheck-objc-clang-ios-version-min . "8.0")
+     (flycheck-objc-clang-ios-version-min . "9.0")
      (eval . (set 'flycheck-objc-clang-include-paths (list srcroot)))))
  (nil
   . ((eval . (setenv "DEVELOPER_DIR"
